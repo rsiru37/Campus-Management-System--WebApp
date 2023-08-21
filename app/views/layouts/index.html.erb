@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+</head>
+<body>
+<h1>Welcome to the Campus Management System</h1>
+<br><br><br>
+<h2>This Login is Only for Teachers</h2>
+  <%= form_with local: true , url: "/teacher", method: :post do |form| %>
+  <%= form.label :k, "Employee ID:" %>
+  <%= form.text_field :empid %>
+  <%= form.submit "Submit" %>
+  <% end %>
+</body>
+</html>

@@ -1,0 +1,2 @@
+module StdStaHelper
+end

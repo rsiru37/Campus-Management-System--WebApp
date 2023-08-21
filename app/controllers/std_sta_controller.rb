@@ -1,0 +1,2 @@
+class StdStaController < ApplicationController
+end
